@@ -1,0 +1,35 @@
+.App-pagination {
+  border-radius: 4px;
+  display: inline-block;
+  margin: 21px 0;
+  padding-left: 0;
+}
+
+.App-pagination > li {
+  background-color: #00bc8c;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline;
+  font-size: 19px;
+  line-height: 1.4;
+  padding: 18px 27px;
+}
+
+.App-pagination > li.active {
+  background-color: #00dba3;
+}
+
+.App-pagination > li:hover {
+  background-color: #00dba3;
+  transition: all 0.35s;
+}
+
+.App-pagination > li:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.App-pagination > li:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}

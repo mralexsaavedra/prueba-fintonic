@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-content {
+  background-color: var(--theme-body-bg);
+  color: var(--theme-body-txt);
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+  text-align: left;
+}
+
+.App-main {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-table {
+  flex-shrink: 2;
+  width: 100%;
+}
+
+.App-title {
+  color: var(--theme-body-txt);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.App-wrapper {
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 2em 70px;
+  width: 100%;
+}
+
+@media (max-width: 414px) {
+  .App-wrapper {
+    padding: 0.5em;
+  }
+}
